@@ -1,0 +1,62 @@
+2022-07-04 16:10:19,471 [trainer.py] => config: ./exps/gem.json
+2022-07-04 16:10:19,471 [trainer.py] => prefix: reproduce
+2022-07-04 16:10:19,471 [trainer.py] => dataset: cifar100
+2022-07-04 16:10:19,471 [trainer.py] => memory_size: 2000
+2022-07-04 16:10:19,471 [trainer.py] => memory_per_class: 20
+2022-07-04 16:10:19,471 [trainer.py] => fixed_memory: False
+2022-07-04 16:10:19,471 [trainer.py] => shuffle: True
+2022-07-04 16:10:19,471 [trainer.py] => init_cls: 10
+2022-07-04 16:10:19,471 [trainer.py] => increment: 10
+2022-07-04 16:10:19,471 [trainer.py] => model_name: gem
+2022-07-04 16:10:19,471 [trainer.py] => convnet_type: resnet32
+2022-07-04 16:10:19,471 [trainer.py] => device: [device(type='cuda', index=0)]
+2022-07-04 16:10:19,471 [trainer.py] => seed: 1993
+2022-07-04 16:10:20,473 [data_manager.py] => [68, 56, 78, 8, 23, 84, 90, 65, 74, 76, 40, 89, 3, 92, 55, 9, 26, 80, 43, 38, 58, 70, 77, 1, 85, 19, 17, 50, 28, 53, 13, 81, 45, 82, 6, 59, 83, 16, 15, 44, 91, 41, 72, 60, 79, 52, 20, 10, 31, 54, 37, 95, 14, 71, 96, 98, 97, 2, 64, 66, 42, 22, 35, 86, 24, 34, 87, 21, 99, 0, 88, 27, 18, 94, 11, 12, 47, 25, 30, 46, 62, 69, 36, 61, 7, 63, 75, 5, 32, 4, 51, 48, 73, 93, 39, 67, 29, 49, 57, 33]
+2022-07-04 16:10:20,660 [trainer.py] => All params: 464154
+2022-07-04 16:10:20,660 [trainer.py] => Trainable params: 464154
+2022-07-04 16:10:20,660 [gem.py] => Learning on 0-10
+2022-07-04 16:15:10,057 [gem.py] => Task 0, Epoch 200/200 => Loss 0.023, Train_accy 99.70, Test_accy 89.50
+2022-07-04 16:15:10,057 [base.py] => Reducing exemplars...(200 per classes)
+2022-07-04 16:15:10,057 [base.py] => Constructing exemplars...(200 per classes)
+2022-07-04 16:15:13,080 [gem.py] => Exemplar size: 2000
+2022-07-04 16:15:13,080 [trainer.py] => CNN: {'total': 89.5, '00-09': 89.5, 'old': 0, 'new': 89.5}
+2022-07-04 16:15:13,080 [trainer.py] => NME: {'total': 90.3, '00-09': 90.3, 'old': 0, 'new': 90.3}
+2022-07-04 16:15:13,080 [trainer.py] => CNN top1 curve: [89.5]
+2022-07-04 16:15:13,080 [trainer.py] => CNN top5 curve: [99.5]
+2022-07-04 16:15:13,080 [trainer.py] => NME top1 curve: [90.3]
+2022-07-04 16:15:13,080 [trainer.py] => NME top5 curve: [99.6]
+
+2022-07-04 16:15:13,080 [trainer.py] => All params: 464804
+2022-07-04 16:15:13,081 [trainer.py] => Trainable params: 464804
+2022-07-04 16:15:13,081 [gem.py] => Learning on 10-20
+2022-07-04 16:17:35,713 [trainer.py] => config: ./exps/gem.json
+2022-07-04 16:17:35,713 [trainer.py] => prefix: reproduce
+2022-07-04 16:17:35,713 [trainer.py] => dataset: cifar100
+2022-07-04 16:17:35,713 [trainer.py] => memory_size: 2000
+2022-07-04 16:17:35,713 [trainer.py] => memory_per_class: 20
+2022-07-04 16:17:35,713 [trainer.py] => fixed_memory: False
+2022-07-04 16:17:35,713 [trainer.py] => shuffle: True
+2022-07-04 16:17:35,713 [trainer.py] => init_cls: 10
+2022-07-04 16:17:35,713 [trainer.py] => increment: 10
+2022-07-04 16:17:35,713 [trainer.py] => model_name: gem
+2022-07-04 16:17:35,713 [trainer.py] => convnet_type: resnet32
+2022-07-04 16:17:35,713 [trainer.py] => device: [device(type='cuda', index=0)]
+2022-07-04 16:17:35,713 [trainer.py] => seed: 1993
+2022-07-04 16:17:36,715 [data_manager.py] => [68, 56, 78, 8, 23, 84, 90, 65, 74, 76, 40, 89, 3, 92, 55, 9, 26, 80, 43, 38, 58, 70, 77, 1, 85, 19, 17, 50, 28, 53, 13, 81, 45, 82, 6, 59, 83, 16, 15, 44, 91, 41, 72, 60, 79, 52, 20, 10, 31, 54, 37, 95, 14, 71, 96, 98, 97, 2, 64, 66, 42, 22, 35, 86, 24, 34, 87, 21, 99, 0, 88, 27, 18, 94, 11, 12, 47, 25, 30, 46, 62, 69, 36, 61, 7, 63, 75, 5, 32, 4, 51, 48, 73, 93, 39, 67, 29, 49, 57, 33]
+2022-07-04 16:17:36,903 [trainer.py] => All params: 464154
+2022-07-04 16:17:36,903 [trainer.py] => Trainable params: 464154
+2022-07-04 16:17:36,904 [gem.py] => Learning on 0-10
+2022-07-04 16:22:25,551 [gem.py] => Task 0, Epoch 200/200 => Loss 0.023, Train_accy 99.70, Test_accy 89.50
+2022-07-04 16:22:25,551 [base.py] => Reducing exemplars...(200 per classes)
+2022-07-04 16:22:25,551 [base.py] => Constructing exemplars...(200 per classes)
+2022-07-04 16:22:28,511 [gem.py] => Exemplar size: 2000
+2022-07-04 16:22:28,511 [trainer.py] => CNN: {'total': 89.5, '00-09': 89.5, 'old': 0, 'new': 89.5}
+2022-07-04 16:22:28,511 [trainer.py] => NME: {'total': 90.3, '00-09': 90.3, 'old': 0, 'new': 90.3}
+2022-07-04 16:22:28,511 [trainer.py] => CNN top1 curve: [89.5]
+2022-07-04 16:22:28,511 [trainer.py] => CNN top5 curve: [99.5]
+2022-07-04 16:22:28,511 [trainer.py] => NME top1 curve: [90.3]
+2022-07-04 16:22:28,511 [trainer.py] => NME top5 curve: [99.6]
+
+2022-07-04 16:22:28,511 [trainer.py] => All params: 464804
+2022-07-04 16:22:28,511 [trainer.py] => Trainable params: 464804
+2022-07-04 16:22:28,511 [gem.py] => Learning on 10-20

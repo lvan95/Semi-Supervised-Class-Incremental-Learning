@@ -1,0 +1,17 @@
+2022-07-22 11:58:53,885 [trainer.py] => config: ./exps/ssl.json
+2022-07-22 11:58:53,885 [trainer.py] => prefix: reproduce
+2022-07-22 11:58:53,885 [trainer.py] => dataset: cifar10
+2022-07-22 11:58:53,885 [trainer.py] => memory_size: 2000
+2022-07-22 11:58:53,885 [trainer.py] => memory_per_class: 20
+2022-07-22 11:58:53,885 [trainer.py] => fixed_memory: False
+2022-07-22 11:58:53,885 [trainer.py] => shuffle: True
+2022-07-22 11:58:53,885 [trainer.py] => init_cls: 5
+2022-07-22 11:58:53,885 [trainer.py] => increment: 10
+2022-07-22 11:58:53,885 [trainer.py] => model_name: ssl
+2022-07-22 11:58:53,885 [trainer.py] => convnet_type: resnet32
+2022-07-22 11:58:53,885 [trainer.py] => device: [device(type='cuda', index=0)]
+2022-07-22 11:58:53,885 [trainer.py] => seed: 1993
+2022-07-22 11:58:54,854 [data_manager.py] => [4, 2, 7, 6, 0, 3, 5, 8, 9, 1]
+2022-07-22 11:58:54,888 [trainer.py] => All params: 464154
+2022-07-22 11:58:54,888 [trainer.py] => Trainable params: 464154
+2022-07-22 11:58:54,888 [ssl.py] => Learning on 0-5
